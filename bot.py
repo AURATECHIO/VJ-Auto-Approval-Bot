@@ -55,8 +55,8 @@ async def op(_, m :Message):
         return 
     keyboard = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("🗯 Channel", url="https://t.me/vj_botz"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/vj_bot_disscussion")
+            InlineKeyboardButton("🗯 Channel", url="https://t.me/+U2_CdoHCBk8zMTc1"),
+            InlineKeyboardButton("💬 Support", url="https://t.me/+U2_CdoHCBk8zMTc1")
         ]]
     )
     add_user(m.from_user.id)
@@ -74,8 +74,8 @@ async def chk(_, cb : CallbackQuery):
         return 
     keyboard = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("🗯 Channel", url="https://t.me/vj_botz"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/vj_bot_disscussion")
+            InlineKeyboardButton("🗯 Channel", url="https://t.me/+U2_CdoHCBk8zMTc1"),
+            InlineKeyboardButton("💬 Support", url="https://t.me/+U2_CdoHCBk8zMTc1")
         ]]
     )
     add_user(m.from_user.id)
